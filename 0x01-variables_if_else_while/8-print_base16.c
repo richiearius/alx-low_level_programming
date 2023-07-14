@@ -21,5 +21,6 @@ while
 putchar(f);
 f++;
 }
+putchar('\n');
 return (0);
 }
