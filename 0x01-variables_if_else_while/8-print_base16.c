@@ -8,13 +8,13 @@ int main(void)
 char f;
 int k;
 k = 0;
+f = 'a';
 while
 (k <= 9)
 {
 putchar(k + '0');
 k++;
 }
-f = 'a';
 while
 (f <= 'f')
 {
