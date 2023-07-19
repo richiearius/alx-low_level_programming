@@ -1,0 +1,10 @@
+#include <unistd.h>
+/**
+ * main - program that prints _putchar, then a new line
+ * Return: 0(BIG WIN)
+ */
+
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
