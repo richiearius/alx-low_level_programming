@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - test for a postitive_or_negative() function
- * @i: character to be checked
  * Return: 0 (BIG WIN)
  */
 int main(void)
