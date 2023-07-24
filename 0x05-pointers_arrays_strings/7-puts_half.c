@@ -4,7 +4,7 @@
  * @s: string
  * Return: void
  */
-int puts_half(char *s)
+void puts_half(char *s)
 {
 int h = 0;
 int k;
