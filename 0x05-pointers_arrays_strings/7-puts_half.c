@@ -8,20 +8,20 @@ void puts_half(char *s)
 {
 int h = 0;
 int k;
-while (s(h) != '\0')
+while (s[h] != '\0')
 {
 h++;
 }
 if (h % 2 == 1)
 {
-k = (j - 1) / 2;
+k = h - 1) / 2;
 k += 1;
 }
 else
 {
 k = h / 2;
 }
-for (; k < j; k++)
+for (; k < h; k++)
 {
 putchar(s[k]);
 }
