@@ -1,16 +1,29 @@
 #include "main.h"
 /**
- * _strlen - prints half of a string, followed by a new line
+ * puts_half - prints half of a string, followed by a new line
  * @s: string
- * Return: length
+ * Return: void
  */
-int _strlen(char *s)
+int puts_half(char *s)
 {
-int longi = 0;
-while (*s != '\0')
+int h = 0;
+int k;
+while (s(h) != '\0')
 {
-longi++;
-s++;
+h++;
 }
-return (longi);
+if (h % 2 == 1)
+{
+k = (j - 1) / 2;
+k += 1;
+}
+else
+{
+k = h / 2;
+}
+for (; k < j; k++)
+{
+putchar(s[k]);
+}
+putchar('\n');
 }
