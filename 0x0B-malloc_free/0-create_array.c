@@ -5,7 +5,7 @@
  * and initializes it with a specific char
  * @size: size of array
  * @c: char to assign
- * malloc: allocate memory
+ * Description: creates an array of chars
  * Return: pointer to the array, or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
