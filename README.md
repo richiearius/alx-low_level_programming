@@ -1,2 +1,1 @@
-#!/bin/bash
-# 0x00. C - Hello, World
+## 0x10. C - Variadic functions
